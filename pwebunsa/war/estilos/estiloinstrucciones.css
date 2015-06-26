@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+body {
+    background-color: lightgrey;
+   
+}
+div.transbox
+{
+	width: 200px;
+  margin: 50px;
+  background-color:#990000;
+  
+  border: 2px solid white;
+  opacity:0.9;
+  filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+h2{
+	background-color: white;
+	 text-align: center;
+	font-style: italic;
+	color:#B22222;
+	
+}
+div {
+	
+    background-color: lightgrey;
+    width: 300px;
+    padding: 25px;
+    border: 25px;
+     border-color: #990000;
+border-style: solid;
+ margin: 30px;
+ font-style: italic;
+ text-align: justify;
+ 
+   
+}
+ol.c {
+    list-style-type: upper-roman;
+}
+p {
+	text-align: justify;
+}

@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-image: url("http://wallpapers.org.es/wp-content/uploads/2012/09/colores_claros.jpeg");
+ background-size: cover;
+  }
+  p{
+	 margin-right: auto;
+	  width: 90%;
+    text-align: justify;
+}
+h1 {
+	background-color: #990000;
+	color:white;
+	
+    font-size: 1.875em;
+}
+h2{
+	font-style: italic;
+	color:#B22222;
+	
+}
+img {
+    float: right;
+     
+}
+div.transbox
+{
+	width: 300px;
+  margin: 50px;
+  background-color:#990000;
+  
+  border: 2px solid white;
+  opacity:0.9;
+  filter:alpha(opacity=50); /* For IE8 and earlier */
+}

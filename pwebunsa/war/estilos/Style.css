@@ -1,0 +1,84 @@
+body {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: nimbus-sans,sans-serif;
+    font-style: inherit;
+    font-size: 100%;
+    background-position: top;
+    background-repeat: repeat-x;
+}
+#content {
+    background-color: #FFF;
+    background-color: #FFF;
+    width: 960px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-box-shadow: 3px 3px 5px #666;
+    -webkit-box-shadow: 3px 3px 5px #666;
+    box-shadow: inset;
+    border: 1px solid #CCC;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left:  43px;
+    float: left;
+    margin-bottom: 16px;
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+
+
+.separatorbox {
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 832px;
+    height: auto;
+    padding-top: 36px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 80px;
+    margin-left: 46px;
+    float: left;
+    clear: both;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+#content .separatorbox h3 {
+    color: #006;
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 1em;
+    font-style: normal;
+    text-align: left;
+    padding: 0px;
+    margin-top: 6px;
+    margin-right: 0px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+}
+#content .separatorbox h4 {
+    color: #369;
+    font-weight: 100;
+    font-size: 21px;
+    line-height: 1em;
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+}
+.story h1, h2, h3, h4, h5 , h6{
+    text-align: left;
+    padding: 0px;
+    margin-top: 3px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCC;
+}

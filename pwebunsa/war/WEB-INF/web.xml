@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>Pwebunsa</servlet-name>
+		<servlet-class>epis.unsa.PwebunsaServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pwebunsa</servlet-name>
+		<url-pattern>/pwebunsa</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Matriculas</servlet-name>
+		<servlet-class>epis.unsa.MatriculasServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Matriculas</servlet-name>
+		<url-pattern>/matriculas</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetList</servlet-name>
+		<servlet-class>epis.unsa.GetList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetList</servlet-name>
+		<url-pattern>/getList</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>Modificar</servlet-name>
+		<servlet-class>epis.unsa.Modificar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Modificar</servlet-name>
+		<url-pattern>/modificar</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GetListConsulta</servlet-name>
+		<servlet-class>epis.unsa.GetListConsulta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetListConsulta</servlet-name>
+		<url-pattern>/consulta</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>EliminarRegistro</servlet-name>
+		<servlet-class>epis.unsa.EliminarRegistro</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EliminarRegistro</servlet-name>
+		<url-pattern>/eliminar</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Matriculado</servlet-name>
+		<servlet-class>epis.unsa.MatriculadoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Matriculado</servlet-name>
+		<url-pattern>/matriculado</url-pattern>
+	</servlet-mapping> 
+	
+	
+	<welcome-file-list>
+		<welcome-file>portada.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
