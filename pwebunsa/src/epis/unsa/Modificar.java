@@ -33,7 +33,7 @@ public class Modificar extends HttpServlet {
 			List<Alumno> persona = (List<Alumno>)q.execute(dni);
 			
 			for (Alumno alumno : persona) {
-			out.println("<form action='/matriculado' id='modifcar'>");
+			out.println("<form action='/matriculado' id='modifcar'>"+"<br>");
 			out.print("Nombres ");
 			out.println("<br><input type='text' value ='"+alumno.getName()+"' id='name' >");
 			out.print("Apellidos ");

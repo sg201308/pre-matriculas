@@ -30,6 +30,7 @@ public class Alumno {
 	
 	@Persistent
 	private String cui;
+
 	
 	@Persistent
 	private String dni;

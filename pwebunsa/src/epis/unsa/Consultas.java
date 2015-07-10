@@ -8,6 +8,7 @@ import java.util.Map;
 
 import javax.jdo.Query;
 import javax.jdo.PersistenceManager;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -17,16 +18,15 @@ public class Consultas extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
+		resp.setContentType("text/html");
+
 		Lector l = new Lector();
 		PrintWriter out = resp.getWriter();
 		String name = req.getParameter("name");
 		String cui = req.getParameter("cui");
-		out.println("<p>Hola realiza busquedas por medio de:</p>");
-		out.println("<form id=consulta>");
-		out.println("Ponga nombre para la busqueda..."+"<input type='text' name='name' id='name' >");
-		out.println("<br><input type='button' value ='buscar' id='buscar' onclick='consultas()'>");
-		out.println("</form>");
-//		Persona ser =l.consultaNombre(name);
+		RequestDispatcher rd = req.getRequestDispatcher("/WEB-INF/consultas.jsp");
+		rd.forward(req, resp);
+
 
 	}
 }

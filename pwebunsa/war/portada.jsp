@@ -5,35 +5,20 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>portada</title>
-<style>
+<style type="text/css">
 body {
-	background-image: url("estilos/final.png");
-	text-align: center;
-	color: #FFFFFF;
+	background-color: #331111;
 }
 
 .slogan {
-	position: absolute;
-	top: 7%;
-	left: 5%;
+	position: relative;
+	left: 4%;
 }
 
 .linea {
 	position: absolute;
 	top: 13%;
 	left: 14%;
-}
-
-.escuela {
-	position: absolute;
-	top: 35%;
-	left: 16%;
-}
-
-.epis {
-	position: absolute;
-	top: 7%;
-	left: 15%;
 }
 
 h2 {
@@ -43,112 +28,10 @@ h2 {
 	font-size: 40px;
 }
 
-a {
-	font-family: "Bookman Old Style";
-	font-size: 25px;
-	color: #ffffff;
-}
-
-.twiter {
+.epis {
 	position: absolute;
-	top: 35%;
-	left: 0%;
-}
-
-.face {
-	position: absolute;
-	top: 50%;
-	left: 0%;
-}
-
-.face2 {
-	position: absolute;
-	top: 49%;
-	left: 0%;
-}
-
-.mensajes {
-	position: absolute;
-	top: 64%;
-	left: 0%;
-}
-
-.cuadro {
-	position: absolute;
-	top: 42%;
-	left: 65%;
-	border-radius: 10px;
-	background-color: #1BAE9F;
-	width: 280px;
-	filter: alpha(opacity = 50);
-	opacity: 0.95;
-	border: 2px solid #ffffff;
-}
-
-.cuadro1 {
-	position: absolute;
-	top: 55%;
-	left: 65%;
-	border-radius: 10px;
-	background-color: #27BF40;
-	width: 280px;
-	filter: alpha(opacity = 50);
-	opacity: 0.95;
-	border: 2px solid #ffffff;
-	left: 65%;
-	border-radius: 10px;
-	background-color: #27BF40;
-}
-
-.cuadro2 {
-	position: absolute;
-	top: 68%;
-	left: 65%;
-	border-radius: 10px;
-	background-color: #CCA422;
-	width: 280px;
-	
-	filter: alpha(opacity = 50);
-	opacity: 0.95;
-	border: 2px solid #ffffff;
-}
-
-.acerca {
- 
-	margin:15px 20px;
-	padding: 2px;
-	height: 46px;
-	padding-top: 1px;
-	font: 15px/18px 'Lucida Grande', Arial, sans-serif;
-	color: #666;
-	text-align: center;
-	background: rgba(250, 250, 250, 0.8);
-	border-radius: 4px;
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0),
-		rgba(0, 0, 0, 0.1));
-	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0),
-		rgba(0, 0, 0, 0.1));
-	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0),
-		rgba(0, 0, 0, 0.1));
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0),
-		rgba(0, 0, 0, 0.1));
-	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0
-		1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
-	box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px
-		rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
-	padding: 3px;
-	width: 1300px;
-}
-
-.seccion {
-	position: absolute;
-	top: 90%;
-	left: 0%;
-}
-
-* {
-	margin: 0px;
-	padding: 0px;
+	top: 3%;
+	left: 15%;
 }
 
 #header {
@@ -156,9 +39,9 @@ a {
 	top: 18%;
 	left: 20%;
 	margin: auto;
-	width:900px;
+	width: 900px;
 	font-family: Arial, Helvetica, sans-serif;
-	color: #000000;
+	color: #FFFFFF;
 }
 
 ul, ol {
@@ -199,62 +82,152 @@ ul, ol {
 	right: -140px;
 	top: 0px;
 }
+
+.seccion {
+	position: absolute;
+	top: 90%;
+	left: 0%;
+}
+
+.acerca {
+	margin: 15px 20px;
+	padding: 2px;
+	height: 46px;
+	padding-top: 1px;
+	font: 15px/18px 'Lucida Grande', Arial, sans-serif;
+	color: #666;
+	text-align: center;
+	background: rgba(250, 250, 250, 0.8);
+	border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.1));
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.1));
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.1));
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.1));
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0
+		1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px
+		rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+	padding: 3px;
+	width: 1300px;
+}
+
+.cuadro {
+	text-align: center;
+	position: absolute;
+	top: 42%;
+	left: 65%;
+	border-radius: 10px;
+	background-color: #1BAE9F;
+	width: 280px;
+	filter: alpha(opacity = 50);
+	opacity: 0.95;
+	border: 2px solid #ffffff;
+	aling-text: center;
+}
+
+.cuadro1 {
+	text-align: center;
+	position: absolute;
+	top: 55%;
+	left: 65%;
+	border-radius: 10px;
+	background-color: #27BF40;
+	width: 280px;
+	filter: alpha(opacity = 50);
+	opacity: 0.95;
+	border: 2px solid #ffffff;
+	left: 65%;
+	border-radius: 10px;
+	background-color: #27BF40;
+}
+
+.cuadro2 {
+	text-align: center;
+	position: absolute;
+	top: 68%;
+	left: 65%;
+	border-radius: 10px;
+	background-color: #CCA422;
+	width: 280px;
+	filter: alpha(opacity = 50);
+	opacity: 0.95;
+	border: 2px solid #ffffff;
+	position: absolute;
+}
+
+.twiter {
+	position: absolute;
+	top: 35%;
+	left: 0%;
+}
+
+.face {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+}
+
+.face2 {
+	position: absolute;
+	top: 49%;
+	left: 0%;
+}
+
+.mensajes {
+	position: absolute;
+	top: 64%;
+	left: 0%;
+}
+
+.escuela {
+	position: absolute;
+	top: 40%;
+	left: 16%;
+}
 </style>
 </head>
 <body>
-	<div id="header">
-		<nav> <!-- Aqui estamos iniciando la nueva etiqueta nav -->
-		<ul class="nav">
-			<li><a href="portada.jsp">Inicio</a></li>
-			<li><a href="vista1.jsp">Instrucciones</a>
-			<li><a href="vista2.jsp">Ubicacion</a>
-			<li><a href="vista3.jsp">Administrador</a></li>
-			
-			<li><a href="vista4.jsp">Comunicados</a></li>
-			<li><a href=""> acerca de </a>
-				<ul>
-					<li><a href="vista5.jsp">Nosotros</a></li>
-					<li><a href="vista6.jsp">EPIS</a></li>
+	<div style="background-color: #E5DFDF">
+		<div id="header">
+			<nav> <!-- Aqui estamos iniciando la nueva etiqueta nav -->
+			<ul class="nav">
+				<li><a href="portada.jsp">Inicio</a></li>
+				<li><a href="vista1.jsp">Instrucciones</a>
+				<li><a href="vista2.jsp">Ubicacion</a>
+				<li><a href="vista4.jsp">Comunicados</a></li>
+				<li><a href=""> acerca de </a>
+					<ul>
+						<li><a href="vista5.jsp">Nosotros</a></li>
+						<li><a href="vista6.jsp">EPIS</a></li>
 
-				</ul></li>
-		</ul>
-		</nav>
-		<!-- Aqui estamos cerrando la nueva etiqueta nav -->
+					</ul></li>
+			</ul>
+			</nav>
+			<!-- Aqui estamos cerrando la nueva etiqueta nav -->
+		</div>
+		<div class="slogan">
+			<img border="0" src="estilos/simbolo_epis.png" width="150"
+				height="120">
+		</div>
+
+		<div class="linea">
+			<img border="0" src="estilos/linea.png" width="650" height="25">
+		</div>
+
+
+		<div class="epis">
+			<h2>INGENIERIA DE SISTEMAS</h2>
+		</div>
+		<br> <br> <br> <br>
 	</div>
 
 
 
 
-	<div class="slogan">
-		<img border="0" src="estilos/simbolo_epis.png" width="150" height="120">
-	</div>
-
-	<div class="linea">
-		<img border="0" src="estilos/linea.png" width="650" height="25">
-	</div>
-	
-	
-	<div class="escuela">
-		<img border="0" src="estilos/escuela.jpg" width="600" height="280">
-	</div>
-	
-	
-	
-	<div class="epis">
-		<h2>INGENIERIA DE SISTEMAS</h2>
-	</div>
-
-	<div class="cuadro">
-		<br> <a href="vista7.jsp">Iniciar sesion<br></a> <br>
-	</div>
-
-	<div class="cuadro1">
-		<br> <a href="vista9.jsp">ESCUELAS<br></a> <br>
-	</div>
-
-	<div class="cuadro2">
-		<br> <a href="consultas.jsp">HORARIOS  <br>CURRICULA<br></a> <br>
-	</div>
 
 
 
@@ -288,6 +261,25 @@ ul, ol {
 		</a>
 	</div>
 
+	<div class="escuela">
+		<img border="0" src="estilos/escuela.jpg" width="600" height="280">
+	</div>
+
+
+
+	<div class="cuadro">
+		<br> <a href="/login">Iniciar sesion<br></a> <br>
+	</div>
+
+	<div class="cuadro1">
+		<br> <a href="/consultas">consultas por busqueda...<br></a> <br>
+	</div>
+
+	<div class="cuadro2">
+		<br> <a href="/login1"> <br>Administrativos<br></a>
+		<br>
+	</div>
+
 	<div class="seccion">
 		<section class="acerca">
 		<p class="about-links">
@@ -297,9 +289,10 @@ ul, ol {
 		</p>
 		</section>
 
+
+
+
 	</div>
-
-
 
 </body>
 </html>

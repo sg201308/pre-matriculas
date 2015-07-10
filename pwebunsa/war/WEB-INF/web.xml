@@ -4,6 +4,79 @@ xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	
+	<servlet>
+		<servlet-name>Pweb</servlet-name>
+		<servlet-class>epis.unsa.PwebServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pweb</servlet-name>
+		<url-pattern>/pweb</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Consultas</servlet-name>
+		<servlet-class>epis.unsa.Consultas</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Consultas</servlet-name>
+		<url-pattern>/consultas</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Administrar</servlet-name>
+		<servlet-class>epis.unsa.Administrar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Administrar</servlet-name>
+		<url-pattern>/administrar</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>epis.unsa.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Login1</servlet-name>
+		<servlet-class>epis.unsa.Login1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login1</servlet-name>
+		<url-pattern>/login1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GetList1</servlet-name>
+		<servlet-class>epis.unsa.GetList1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetList1</servlet-name>
+		<url-pattern>/getList1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GetList2</servlet-name>
+		<servlet-class>epis.unsa.GetList2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetList2</servlet-name>
+		<url-pattern>/getList2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Remove1</servlet-name>
+		<servlet-class>epis.unsa.Remove1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Remove1</servlet-name>
+		<url-pattern>/remove1</url-pattern>
+	</servlet-mapping>
+	
+	
 	<servlet>
 		<servlet-name>Pwebunsa</servlet-name>
 		<servlet-class>epis.unsa.PwebunsaServlet</servlet-class>
@@ -69,7 +142,54 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>Matriculado</servlet-name>
 		<url-pattern>/matriculado</url-pattern>
 	</servlet-mapping> 
-	
+		
+	<servlet>
+		<servlet-name>SaveCurso</servlet-name>
+		<servlet-class>epis.unsa.SaveCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveCurso</servlet-name>
+		<url-pattern>/save</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>mostrarCurso</servlet-name>
+		<servlet-class>epis.unsa.mostrarCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mostrarCurso</servlet-name>
+		<url-pattern>/mostrarCurso</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>mostrarCurso2</servlet-name>
+		<servlet-class>epis.unsa.mostrarCurso2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mostrarCurso2</servlet-name>
+		<url-pattern>/mostrarCurso2</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Remove</servlet-name>
+		<servlet-class>epis.unsa.Remove</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Remove</servlet-name>
+		<url-pattern>/remove</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Elegir</servlet-name>
+		<servlet-class>epis.unsa.Elegir</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Elegir</servlet-name>
+		<url-pattern>/elegir</url-pattern>
+	</servlet-mapping>
 	
 	<welcome-file-list>
 		<welcome-file>portada.jsp</welcome-file>

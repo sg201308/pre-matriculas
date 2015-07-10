@@ -25,6 +25,7 @@ function status(){
 	var url = "matriculas?name=" + name + "&lastname=" + lastname + "&cui=" + cui;
 	call(url,action);
 }
+
 function statusconsulta(){
 	var c = document.getElementById("c").value;
 	var consulta= document.getElementById("cons").value;

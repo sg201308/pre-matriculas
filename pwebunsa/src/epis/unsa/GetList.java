@@ -7,6 +7,7 @@ import java.util.Map;
 
 import javax.jdo.Query;
 import javax.jdo.PersistenceManager;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -16,6 +17,8 @@ public class GetList extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
+		resp.setContentType("text/html");
+
 		PrintWriter out = resp.getWriter();
 		String cui = req.getParameter("cui");
 		out.println("Ud. se ha matriculado en los siguientes cursos: ");
@@ -23,6 +26,7 @@ public class GetList extends HttpServlet {
 		Query q = pm.newQuery(Alumno.class);
 		q.setFilter("cui == cuiParam");
 		q.declareParameters("String cuiParam");
+	
 		try{
 			List<Alumno> persona = (List<Alumno>)q.execute(cui);
 			String rpta ="Datos del alumno matriculado:\n";
