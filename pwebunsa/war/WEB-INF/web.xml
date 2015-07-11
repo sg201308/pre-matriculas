@@ -153,6 +153,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 
 
+<servlet>
+		<servlet-name>SaveDepartamento</servlet-name>
+		<servlet-class>epis.unsa.SaveDepartamento</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveDepartamento</servlet-name>
+		<url-pattern>/departamento</url-pattern>
+	</servlet-mapping>
+
+
 	<servlet>
 		<servlet-name>mostrarCurso</servlet-name>
 		<servlet-class>epis.unsa.mostrarCurso</servlet-class>

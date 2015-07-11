@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class MatriculadoServlet extends HttpServlet {
 	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		Lector leer = new Lector();
 		PrintWriter out = resp.getWriter();
@@ -25,7 +25,7 @@ public class MatriculadoServlet extends HttpServlet {
 		String [] cursos = req.getParameterValues("curso");
 		Alumno alumno = new Alumno(name, lastname, ciudad, direccion, cui, dni, cursos);
 		PersistenceManager pm = PMF.get().getPersistenceManager();
-		RequestDispatcher rd = req.getRequestDispatcher("/WEB-INF/matricular.jsp");
+		RequestDispatcher rd = req.getRequestDispatcher("/WEB-INF/departamento.jsp");
 		rd.forward(req, resp);
 
 		try{
