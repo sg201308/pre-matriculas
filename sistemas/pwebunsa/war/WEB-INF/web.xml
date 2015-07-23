@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	
+	<servlet>
+		<servlet-name>Pweb</servlet-name>
+		<servlet-class>epis.unsa.PwebServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pweb</servlet-name>
+		<url-pattern>/pweb</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DatosDep</servlet-name>
+		<servlet-class>epis.unsa.DatosDep</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DatosDep</servlet-name>
+		<url-pattern>/depp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Consultas</servlet-name>
+		<servlet-class>epis.unsa.Consultas</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Consultas</servlet-name>
+		<url-pattern>/consultas</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Administrar</servlet-name>
+		<servlet-class>epis.unsa.Administrar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Administrar</servlet-name>
+		<url-pattern>/administrar</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>epis.unsa.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Login1</servlet-name>
+		<servlet-class>epis.unsa.Login1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login1</servlet-name>
+		<url-pattern>/login1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Login2</servlet-name>
+		<servlet-class>epis.unsa.Login2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login2</servlet-name>
+		<url-pattern>/login2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GetList1</servlet-name>
+		<servlet-class>epis.unsa.GetList1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetList1</servlet-name>
+		<url-pattern>/getList1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GetList2</servlet-name>
+		<servlet-class>epis.unsa.GetList2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetList2</servlet-name>
+		<url-pattern>/getList2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Remove1</servlet-name>
+		<servlet-class>epis.unsa.Remove1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Remove1</servlet-name>
+		<url-pattern>/remove1</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Pwebunsa</servlet-name>
+		<servlet-class>epis.unsa.PwebunsaServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pwebunsa</servlet-name>
+		<url-pattern>/pwebunsa</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Matriculas</servlet-name>
+		<servlet-class>epis.unsa.MatriculasServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Matriculas</servlet-name>
+		<url-pattern>/matriculas</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetList</servlet-name>
+		<servlet-class>epis.unsa.GetList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetList</servlet-name>
+		<url-pattern>/getList</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>Modificar</servlet-name>
+		<servlet-class>epis.unsa.Modificar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Modificar</servlet-name>
+		<url-pattern>/modificar</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GetListConsulta</servlet-name>
+		<servlet-class>epis.unsa.GetListConsulta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetListConsulta</servlet-name>
+		<url-pattern>/consulta</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>EliminarRegistro</servlet-name>
+		<servlet-class>epis.unsa.EliminarRegistro</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EliminarRegistro</servlet-name>
+		<url-pattern>/eliminar</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Matriculado</servlet-name>
+		<servlet-class>epis.unsa.MatriculadoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Matriculado</servlet-name>
+		<url-pattern>/matriculado</url-pattern>
+	</servlet-mapping> 
+		
+	<servlet>
+		<servlet-name>SaveCurso</servlet-name>
+		<servlet-class>epis.unsa.SaveCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveCurso</servlet-name>
+		<url-pattern>/save</url-pattern>
+	</servlet-mapping>
+
+
+<servlet>
+		<servlet-name>SaveDepartamento</servlet-name>
+		<servlet-class>epis.unsa.SaveDepartamento</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveDepartamento</servlet-name>
+		<url-pattern>/departamento</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>mostrarCurso</servlet-name>
+		<servlet-class>epis.unsa.mostrarCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mostrarCurso</servlet-name>
+		<url-pattern>/mostrarCurso</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>mostrarCurso2</servlet-name>
+		<servlet-class>epis.unsa.mostrarCurso2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mostrarCurso2</servlet-name>
+		<url-pattern>/mostrarCurso2</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Remove</servlet-name>
+		<servlet-class>epis.unsa.Remove</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Remove</servlet-name>
+		<url-pattern>/remove</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Elegir</servlet-name>
+		<servlet-class>epis.unsa.Elegir</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Elegir</servlet-name>
+		<url-pattern>/elegir</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>profesorSave</servlet-name>
+		<servlet-class>epis.unsa.profesorSave</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>profesorSave</servlet-name>
+		<url-pattern>/profesorSave</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>profesorBorrar</servlet-name>
+		<servlet-class>epis.unsa.profesorBorrar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>profesorBorrar</servlet-name>
+		<url-pattern>/profesorBorrar</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>BuscarProfesor</servlet-name>
+		<servlet-class>epis.unsa.BuscarProfesor</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BuscarProfesor</servlet-name>
+		<url-pattern>/BuscarProfesor</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>prof</servlet-name>
+		<servlet-class>epis.unsa.prof</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>prof</servlet-name>
+		<url-pattern>/prof</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>menu</servlet-name>
+		<servlet-class>epis.unsa.menu</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>menu</servlet-name>
+		<url-pattern>/menu</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>instruccionsave</servlet-name>
+		<servlet-class>epis.unsa.instruccionsave</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>instruccionsave</servlet-name>
+		<url-pattern>/instruccionsave</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Menu</servlet-name>
+		<servlet-class>epis.unsa.Menu</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Menu</servlet-name>
+		<url-pattern>/menu1</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Escoger</servlet-name>
+		<servlet-class>epis.unsa.Escoger</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Escoger</servlet-name>
+		<url-pattern>/escoger</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>comentarioGuardado</servlet-name>
+		<servlet-class>epis.unsa.comentarioGuardado</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>comentarioGuardado</servlet-name>
+		<url-pattern>/comentario</url-pattern>
+	</servlet-mapping>
+
+	
+		
+	<welcome-file-list>
+		<welcome-file>portada.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
