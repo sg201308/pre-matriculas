@@ -27,6 +27,7 @@ public class Consultas extends HttpServlet {
 		RequestDispatcher rd = req.getRequestDispatcher("/WEB-INF/consultas.jsp");
 		rd.forward(req, resp);
 
+		
 
 	}
 }
